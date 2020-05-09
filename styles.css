@@ -50,9 +50,11 @@ body {
 #nav-list {
   margin-top: 10px;
 }
-#nav-list a {
-  color: #951C49;
+#nav-list {
+  color: #aa3344;
   text-align: center;
+  text-shadow: 5px;
+  background-color: #55aa00;
 }
 #nav-list a:hover {
   background: #E7E7E7;
@@ -83,30 +85,15 @@ body {
 }
 /* END HEADER */
 
-.chicken {
-  text-align: center;
-  background-color: #00aa00;
-  height: 30%;
-  width: 60%;
-  margin-top: 2%;
-  margin-bottom:2%;
+#home-tiles1 {
+  background-color: #998800;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.beef {
+li {
+  display: list-item;
   text-align: center;
-  background-color: #0000aa;
-  height: 30%;
-  width: 60%;
-  margin-top: 2%;
-  margin-bottom:2%;
-}
-
-.sushi {
-  text-align: center;
-  background-color: #00aaaa;
-  height: 30%;
-  width: 60%;
-  margin-top: 2%;
-  margin-bottom:2%;
-}
 }
